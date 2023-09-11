@@ -116,7 +116,7 @@ public class EmployeeConsole extends Console {
         System.out.println("Enter Email Address (example123@gmail.com)");
         emp.setEmail(tools.promptWord());
         emp.setHireDate(today);
-        System.out.println("Enter Phone Number Without '-' or '.'");
+        System.out.println("Enter Phone Number With'.' ex) 123.456.789 ");
         emp.setPhone(tools.promptWord());
         System.out.println("Enter Job Title");
         System.out.printf(">>> ");
